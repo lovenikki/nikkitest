@@ -4,7 +4,7 @@ function thead(isShoppingCart) {
 	$thead.append(td("Score", "score"));
 	$thead.append(td("Name", "name"));
 	$thead.append(td("Category", "category"));
-	$thead.append(td("Number", "th_number"));
+	$thead.append(td("ID", "th_number"));
 	$thead.append(td("Star", ""));
 	$thead.append(td("Simple", ""));
 	$thead.append(td("Gorgeous", ""));
@@ -17,7 +17,7 @@ function thead(isShoppingCart) {
 	$thead.append(td("Cool", ""));
 	$thead.append(td("Warm", ""));
 	$thead.append(td("Tag", "th_tag"));
-	$thead.append(td("Source", "th_from"));
+	$thead.append(td("Obtain From", "th_from"));
 	$thead.append(td("Set", "th_issuit hidden"));
 	$thead.append(td("Version", "th_version hidden"));
 	$td_nbsp = td("", "");

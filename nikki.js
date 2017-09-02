@@ -575,7 +575,7 @@ function reDrawTheme() {
 	var dropdown = $("#theme");
 	dropdown.empty();
 	var def = document.createElement('option');
-	def.text = 'Customized Stage';
+	def.text = 'Customize Stage';
 	def.value = 'custom';
 	dropdown[0].add(def);
 	for (var theme in allThemes) {
