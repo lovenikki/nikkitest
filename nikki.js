@@ -547,7 +547,7 @@ function setFilters(level) {
 function drawTheme() {
 	var dropdown = $("#theme")[0];
 	var def = document.createElement('option');
-	def.text = 'Customized Stage';
+	def.text = 'Customize Stage';
 	def.value = 'custom';
 	dropdown.add(def);
 	for (var theme in allThemes) {
