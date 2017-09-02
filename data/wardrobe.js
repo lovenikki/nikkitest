@@ -4726,7 +4726,7 @@ var wardrobe = [
   ['Scattered Music Papers','Accessory-Ground','1298','4','B','','SS','','SS','','','A','','A','','Event','单簧管协奏曲','V1.9.0'],
   ['Wonderful Music','Accessory-Handheld·Left','1299','4','A','','S','','SS','','','B','','A','','Event','单簧管协奏曲','V1.9.0'],
   ['Dream Wings','Accessory-Foreground','1300','5','A','','SS','','','A','','SS','A','','','Event','天空随想曲','V1.9.0'],
-  ['Melody Echo','Accessory-Background','1301','5','SS','','SS','','S','','','B','S','','','Event','天空随想曲','V1.9.0'],
+  ['Stairs of Music','Accessory-Background','1301','5','SS','','SS','','S','','','B','S','','','Event','天空随想曲','V1.9.0'],
   ['Butterfly Fantasy','Accessory-Hair ornaments','1302','5','S','','SS','','','S','','SS','A','','','Event','天空随想曲','V1.9.0'],
   ['Violin of Sky','Accessory-Handheld·Both','1303','5','A','','SS','','','A','','SS','S','','','Suit','天空随想曲·套','V1.9.0'],
   ['Devil\'s Vibrato','Accessory-Bracelet·Glove','1305','5','A','','SS','','SS','','','S','S','','','Suit','天空随想曲·套','V1.9.0'],
