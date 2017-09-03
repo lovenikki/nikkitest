@@ -1,4 +1,4 @@
-body{
+﻿body{
 	margin: 1em;
 	font-family: "Helvetica Neue", Helvetica, Microsoft Yahei, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif;
 }
@@ -212,4 +212,8 @@ div#showmore {
 	border-bottom: 1px solid #f3f0f6;
 	color: #0984ff;
 	cursor: pointer;
+}
+.disqus_thread {
+  width: 70%;
+  margin-left: auto;
 }

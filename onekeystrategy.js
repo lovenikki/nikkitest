@@ -36,7 +36,7 @@ function showStrategy2(keywords, suits){
 		$strategy.append($suits);
 	}
 	
-	var $skill_title = p("技能: ", "skill_title");
+	var $skill_title = p("NPC's Skill: ", "skill_title");
 	$strategy.append($skill_title);
 	
 	if($("#skillInfo").text()){
@@ -54,7 +54,7 @@ function showStrategy2(keywords, suits){
 	}
 	$strategy.append($skill_my);
 	
-	var $criteria_title = p("属性-" + (uiFilter["balance"] ? "均衡权重" : "真实权重") + ": ", "criteria_title");
+	var $criteria_title = p("Attributes-" + (uiFilter["balance"] ? "Balanced Weight" : "Ture Weight") + ": ", "criteria_title");
 	$strategy.append($criteria_title);
 	
 	var $criteria = p(getStrCriteria(filters),"criteria");
@@ -64,7 +64,7 @@ function showStrategy2(keywords, suits){
 	$strategy.append($tag);
 	
 	if($("#hintInfo").text()){
-		var $hint = p($("#hintInfo").text().replace("过关提示:",""), "hint", "过关提示: ", "hint_tiele");
+		var $hint = p($("#hintInfo").text().replace("Stage Hint:",""), "hint", "Stage Hint: ", "hint_tiele");
 		$strategy.append($hint.clone());
 	}
 	else if($("#theme").val().indexOf("竞技场") < 0 && $("#theme").val().indexOf("联盟委托") < 0){
@@ -77,7 +77,7 @@ function showStrategy2(keywords, suits){
 		$strategy.append($("#categoryFInfo").clone().attr("id", ""));
 	}
 		
-	var $clotheslist_title = p("推荐搭配: ", "clotheslist_title");
+	var $clotheslist_title = p("Recommended Items: ", "clotheslist_title");
 	$strategy.append($clotheslist_title);
 	
 	for (var i in CATEGORY_HIERARCHY) {
@@ -135,7 +135,7 @@ function showStrategy2(keywords, suits){
 		}
 	}
 	
-	$strategy.append(p("————————Accessory(高收集佩戴满, 低收集佩戴9件)————————", "divide"));
+	$strategy.append(p("————————Accessory(Just wear 9 pieces if you don't have most of them)————————", "divide"));
 	
 	for (var c in category){
 		var name = category[c];
@@ -182,15 +182,15 @@ function ifCriteriaHighLow(theme){
 
 function getStrCriteria(filters){
 	var strCriteria = "";
-	filters["simple"] >= 0 ? strCriteria += "简约" : strCriteria += "华丽";
+	filters["simple"] >= 0 ? strCriteria += "Simple" : strCriteria += "Gorgeous";
 	strCriteria += " : ";
-	filters["cute"] >= 0 ? strCriteria += "可爱" : strCriteria += "成熟";
+	filters["cute"] >= 0 ? strCriteria += "Cute" : strCriteria += "Mature";
 	strCriteria += " : ";
-	filters["active"] >= 0 ? strCriteria += "活泼" : strCriteria += "优雅";
+	filters["active"] >= 0 ? strCriteria += "Lively" : strCriteria += "Elegant";
 	strCriteria += " : ";
-	filters["pure"] >= 0 ? strCriteria += "清纯" : strCriteria += "性感";
+	filters["pure"] >= 0 ? strCriteria += "Pure" : strCriteria += "Sexy";
 	strCriteria += " : ";
-	filters["cool"] >= 0 ? strCriteria += "清凉" : strCriteria += "保暖";
+	filters["cool"] >= 0 ? strCriteria += "Cool" : strCriteria += "Warm";
 	strCriteria += " ≈ ";
 	filters["simple"] >= 0 ? strCriteria += filters["simple"] : strCriteria += -filters["simple"];
 	strCriteria += " : ";

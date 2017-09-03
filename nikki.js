@@ -235,7 +235,7 @@ function drawLevelInfo() {
 			}
 			$categoryF.append($("<br>"));
 			if (currentLevel.hint[2] && currentLevel.hint[2] != '') {
-				var $isF = $("<font>").text("Clothes cause F: ").addClass("is_f");
+				var $isF = $("<font>").text("F Clothes: ").addClass("is_f");
 				$categoryF.append($isF).append(currentLevel.hint[2]);
 			}
 		}
