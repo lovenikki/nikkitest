@@ -1,4 +1,4 @@
-.table{
+﻿.table{
 	display: table;
 	border-collapse: collapse;
 	line-height: 1.5;
@@ -119,4 +119,9 @@
 }
 .table-td.deps [tooltip]:after {
   background-color: #ddf;
+}
+
+.disqus_thread {
+  width: 70%;
+  margin-left: auto;
 }
