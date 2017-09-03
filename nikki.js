@@ -148,7 +148,7 @@ function onChangeUiFilter() {
 		$("#onekey").text("懒黑攻略");
 	}
 	else{
-		$("#onekey").text("一键攻略");		
+		$("#onekey").text("One-key Strategy");		
 	}
 	
 	if (currentCategory && currentCategory != 'switchall') {
