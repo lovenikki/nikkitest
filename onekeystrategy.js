@@ -68,7 +68,7 @@ function showStrategy2(keywords, suits){
 		$strategy.append($hint.clone());
 	}
 	else if($("#theme").val().indexOf("竞技场") < 0 && $("#theme").val().indexOf("联盟委托") < 0){
-		var $hint = p("本关暂无过关提示, 若出现F, 请参考失败后大喵的衣服提示, 或不穿Coat进行尝试", "hint", "过关提示: ", "hint_tiele");
+		var $hint = p("This stage doesn't have hint for now", "hint", "Stage Hint: ", "hint_tiele");
 		$strategy.append($hint);
 	}
 	
@@ -209,7 +209,7 @@ function getstrTag(filters){
 	var str = "";
 	
 	if(filters.bonus && filters.bonus[0] && filters.bonus[0].tagWhitelist){
-		str+="This stage require TAG[" + filters.bonus[0].tagWhitelist + "]，bonus added ~" + filters.bonus[0].param;
+		str+="This stage requires TAG[" + filters.bonus[0].tagWhitelist + "]，bonus ~" + filters.bonus[0].param;
 		if(filters.bonus[1] && filters.bonus[1].tagWhitelist){
 			str+="，TAG[" + filters.bonus[1].tagWhitelist + "], bonus added ~" + filters.bonus[1].param;
 		}
