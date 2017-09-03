@@ -48,7 +48,7 @@ function showStrategy2(keywords, suits){
 		$strategy.append($skill_ops);		
 	}
 	
-	var $skill_my = p("推荐携带: ", "skill_my");
+	var $skill_my = p("Recommended Skills: ", "skill_my");
 	if($("#theme").val().indexOf("竞技场") >= 0){
 		$skill_my = p("推荐携带: 微笑 飞吻 挑剔 沉睡", "skill_my");
 	}
@@ -209,9 +209,9 @@ function getstrTag(filters){
 	var str = "";
 	
 	if(filters.bonus && filters.bonus[0] && filters.bonus[0].tagWhitelist){
-		str+="本关有TAG[" + filters.bonus[0].tagWhitelist + "]，加分约" + filters.bonus[0].param;
+		str+="This stage require TAG[" + filters.bonus[0].tagWhitelist + "]，bonus added ~" + filters.bonus[0].param;
 		if(filters.bonus[1] && filters.bonus[1].tagWhitelist){
-			str+="，TAG[" + filters.bonus[1].tagWhitelist + "], 加分约" + filters.bonus[1].param;
+			str+="，TAG[" + filters.bonus[1].tagWhitelist + "], bonus added ~" + filters.bonus[1].param;
 		}
 	}
 	return str;
