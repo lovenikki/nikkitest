@@ -805,7 +805,7 @@ function addBonusInfo(base, weight, tag) {
   // '精灵的月下舞会3': [addBonusInfo('S', 1, "European")],
   // '死神舞会1-神秘先知': [addBonusInfo('SS', 1, "Pet")],
   // '死神舞会2-舞会邀请': [addBonusInfo('SS', 10, "Dancer"), addBonusInfo('SS', 3, "Hindu")],
-  'Could Lady': [addBonusInfo('A', 1, "Modern China")],
+  'Cloud Lady': [addBonusInfo('A', 1, "Modern China")],
   'Intern Translator': [addBonusInfo('A', 1, "Modern China")],
   // '保育员面试': [addBonusInfo('S', 1, "Pet")],
   // '海边的比基尼对决！': [addBonusInfo('A', 1, "Swimsuit")],
