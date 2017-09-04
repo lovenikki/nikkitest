@@ -50,8 +50,8 @@ var competitionsRaw = {
   'Imperial Ball': [-1.33, -1.0, -1.33, -1.33, -0.67],
   'Fairytale Garden': [-1.33, 1.33, -1.33, 1.0, 0.67],
   'A Growing Lady': [0.67, -1.33, -1.33, 1.33, -1.0],
-  'Peerless Beauty': [-1.33, -1.0, -1.33, 1.33, -0.67],
-  'Delicate Beauty': [1.33, 0.67, -1.33, 1.33, 1.0]
+  'Cloud Lady': [-1.33, -1.0, -1.33, 1.33, -0.67],
+  'Intern Translator': [1.33, 0.67, -1.33, 1.33, 1.0]
 };
 
 var tasksRaw = {
@@ -805,8 +805,8 @@ function addBonusInfo(base, weight, tag) {
   // '精灵的月下舞会3': [addBonusInfo('S', 1, "European")],
   // '死神舞会1-神秘先知': [addBonusInfo('SS', 1, "Pet")],
   // '死神舞会2-舞会邀请': [addBonusInfo('SS', 10, "Dancer"), addBonusInfo('SS', 3, "Hindu")],
-  'Peerless Beauty': [addBonusInfo('A', 1, "Modern China")],
-  'Delicate Beauty': [addBonusInfo('A', 1, "Modern China")],
+  'Could Lady': [addBonusInfo('A', 1, "Modern China")],
+  'Intern Translator': [addBonusInfo('A', 1, "Modern China")],
   // '保育员面试': [addBonusInfo('S', 1, "Pet")],
   // '海边的比基尼对决！': [addBonusInfo('A', 1, "Swimsuit")],
   // '少女的茶会': [addBonusInfo('SS', 1, "Lolita")],
