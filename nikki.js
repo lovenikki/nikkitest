@@ -915,7 +915,7 @@ function initEvent() {
 			if(names.length > 50){
 				names = names.substring(0,50) + "...等" + clotheslist[type]["namelist"].length + "件衣服";
 			}
-			confirmStr += "你将要在>>" + type + "<<中导入：\n" + names + "\n";
+			confirmStr += "You are going to import them to>>" + type + "<<\n" + names + "\n";
 		}
 		if (confirm(confirmStr)) {
 			var myClothes = MyClothes();
@@ -940,25 +940,25 @@ function filterClotherHTML(btn){
 		var cls = ".source:first";
 		var type = 0;
 		switch($(btn).text()){
-			case "清空筛选": type = 0; break;
+			case "Reset Filter": type = 0; break;
 			case "尚缺材料": cls = ".deps:first"; type = 3; break;
 			case "暂不缺材料": cls = ".depsFin:first"; type = 3; break;
-			case "少女级": str = "少"; type = 1; break;
-			case "少女染/进": str = "少"; type = 2; break;
-			case "公主级": str = "公"; type = 1;break;
-			case "公主染/进": str = "公"; type = 2; break;
-			case "店": str = "店"; type = 1;break;
-			case "店染/进": str = "店"; type = 2; break;
-			case "设计图": str = "设计图"; type = 1;break;
-			case "设计图染/进": str = "设计图"; type = 2; break;
-			case "活动": str = "活动"; type = 2; break;
-			case "迷之屋限定": str = "迷,幻,迷/幻,云禅,昼夜,缥缈,昼夜/兑·时光,云禅/兑·卧云,缥缈/兑·翡翠"; type = -1; break;
-			case "迷之屋限定染/进": str = "迷,幻,迷/幻,云禅,昼夜,缥缈,昼夜/兑·时光,云禅/兑·卧云,缥缈/兑·翡翠"; type = -2; break;
-			case "3星": str = "3"; cls = ".star:first"; type = 1; break;
-			case "4星": str = "4"; cls = ".star:first"; type = 1; break;
-			case "5星": str = "5"; cls = ".star:first"; type = 1; break;
-			case "赠送/签到": str = "送,签到"; type = 1; break;
-			case "套装部件": cls = ".issuit:first"; type = 3; break;
+			case "Maiden": str = " M"; type = 1; break;
+			case "Maiden C/E": str = " M"; type = 2; break;
+			case "Princess": str = " P"; type = 1;break;
+			case "Princess C/E": str = " P"; type = 2; break;
+			case "Shop": str = "Shop"; type = 1;break;
+			case "Shop C/E": str = "Shop"; type = 2; break;
+			case "Recipe": str = "Recipe"; type = 1;break;
+			case "Recipe C/E": str = "Recipe"; type = 2; break;
+			case "Event": str = "Event"; type = 2; break;
+			case "Mystery House": str = "Mystery,Fantasy,Mystery/Fantasy,云禅,Clock,Misty,Clock/Exchange·Clock,云禅/兑·卧云,Misty/Exchange·Jade"; type = -1; break;
+			case "Mystery House C/E": str = "Mystery,Fantasy,Mystery/Fantasy,云禅,Clock,Misty,Clock/Exchange·Clock,云禅/兑·卧云,Misty/Exchange·Jade"; type = -2; break;
+			case "3-Star": str = "3"; cls = ".star:first"; type = 1; break;
+			case "4-Star": str = "4"; cls = ".star:first"; type = 1; break;
+			case "5-Star": str = "5"; cls = ".star:first"; type = 1; break;
+			case "Reward/Sign-in": str = "送,签到,Reward,Sign-in"; type = 1; break;
+			case "Suit Piece": cls = ".issuit:first"; type = 3; break;
 			case "新品": cls = ".version:first"; str=lastVersion; type = 1; break;
 		}
 		 for(var i = 0 ; i < clothesDivList.length; i++){
@@ -983,9 +983,9 @@ function filterClotherHTML(btn){
 }
 
 function filterLoop(obj, type, cls, str){	
-	if(filterCompare(obj, type, ".source:first", "定")
-		|| filterCompare(obj, type, ".source:first", "进")){
-		var id = obj.find(".source:first").text().replace(/(定|进)([0-9]+)[^0-9]*/, "$2");
+	if(filterCompare(obj, type, ".source:first", "C")
+		|| filterCompare(obj, type, ".source:first", "E")){
+		var id = obj.find(".source:first").text().replace(/(C|E)([0-9]+)[^0-9]*/, "$2");
 		var $source = $("#clickable-" + obj.find(".category:first").text().split("-")[0] + id).parent();
 		if(filterCompare($source, type, cls, str)){
 			return false;
@@ -998,7 +998,7 @@ function filterLoop(obj, type, cls, str){
 }
 
 function filterCompare(obj, type, cls, str){
-	if(str == "定" || str == "进"){
+	if(str == "C" || str == "E"){
 		if(type != 2 && type != -2){
 			return false;
 		}

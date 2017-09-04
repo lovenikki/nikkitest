@@ -2,7 +2,7 @@ var timeIndex = initTime();
 function initTime(){
 	var d = new Date();
 	time_zone = -d.getTimezoneOffset()/60;
-    offset = 8 - time_zone;
+    offset = -5 - time_zone;
 
 	var date = new Date();
 	var d;

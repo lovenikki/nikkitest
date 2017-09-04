@@ -60,7 +60,7 @@
 					<a href="#" id="show_history">View Changelog</a><br/><br/>
 			</div><!-- announcement -->	
 			<div class="fliter">
-				距离搭配赛结束还有<span id="showTime">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+				Competition Countdown - <span id="showTime">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
 				&nbsp;&nbsp;|&nbsp;&nbsp;
 				<a href="data/FAQ.html" target="_blank">FAQ</a>
 				&nbsp;&nbsp;|&nbsp;&nbsp;
@@ -168,26 +168,26 @@
 							</fieldset>
 							<fieldset>
 								<legend>Filter(Click show all items first)</legend>
-									<button  type="button" class="btn btn-xs btn-info front_filter_option" >All</button>
-									<button  type="button" class="btn btn-xs btn-default front_filter_option" >尚缺材料</button>
-									<button  type="button" class="btn btn-xs btn-default front_filter_option" >暂不缺材料</button>
-									<button  type="button" class="btn btn-xs btn-default front_filter_option" >少女级</button>
-									<button  type="button" class="btn btn-xs btn-default front_filter_option" >少女染/进</button>
-									<button  type="button" class="btn btn-xs btn-default front_filter_option" >公主级</button>
-									<button  type="button" class="btn btn-xs btn-default front_filter_option" >公主染/进</button>
-									<button  type="button" class="btn btn-xs btn-default front_filter_option" >店</button>
-									<button  type="button" class="btn btn-xs btn-default front_filter_option" >店染/进</button>
-									<button  type="button" class="btn btn-xs btn-default front_filter_option" >设计图</button>
-									<button  type="button" class="btn btn-xs btn-default front_filter_option" >设计图染/进</button>
-									<button  type="button" class="btn btn-xs btn-default front_filter_option" >活动</button>
-									<button  type="button" class="btn btn-xs btn-default front_filter_option" >赠送/签到</button>
-									<button  type="button" class="btn btn-xs btn-default front_filter_option" >迷之屋限定</button>
-									<button  type="button" class="btn btn-xs btn-default front_filter_option" >迷之屋限定染/进</button>
-									<button  type="button" class="btn btn-xs btn-default front_filter_option" >3星</button>
-									<button  type="button" class="btn btn-xs btn-default front_filter_option" >4星</button>
-									<button  type="button" class="btn btn-xs btn-default front_filter_option" >5星</button>
-									<button  type="button" class="btn btn-xs btn-default front_filter_option" >套装部件</button>
-									<button  type="button" class="btn btn-xs btn-default front_filter_option" >新品</button>
+									<button  type="button" class="btn btn-xs btn-info front_filter_option" >Reset Filter</button>
+									<!-- <button  type="button" class="btn btn-xs btn-default front_filter_option" >尚缺材料</button> -->
+									<!-- <button  type="button" class="btn btn-xs btn-default front_filter_option" >暂不缺材料</button> -->
+									<button  type="button" class="btn btn-xs btn-default front_filter_option" >Maiden</button>
+									<button  type="button" class="btn btn-xs btn-default front_filter_option" >Maiden C/E</button>
+									<button  type="button" class="btn btn-xs btn-default front_filter_option" >Princess</button>
+									<button  type="button" class="btn btn-xs btn-default front_filter_option" >Princess C/E</button>
+									<button  type="button" class="btn btn-xs btn-default front_filter_option" >Shop</button>
+									<button  type="button" class="btn btn-xs btn-default front_filter_option" >Shop C/E</button>
+									<button  type="button" class="btn btn-xs btn-default front_filter_option" >Recipe</button>
+									<button  type="button" class="btn btn-xs btn-default front_filter_option" >Recipe C/E</button>
+									<button  type="button" class="btn btn-xs btn-default front_filter_option" >Event</button>
+									<button  type="button" class="btn btn-xs btn-default front_filter_option" >Reward/Sign-in</button>
+									<button  type="button" class="btn btn-xs btn-default front_filter_option" >Mystery House</button>
+									<button  type="button" class="btn btn-xs btn-default front_filter_option" >Mystery House C/E</button>
+									<button  type="button" class="btn btn-xs btn-default front_filter_option" >3-Star</button>
+									<button  type="button" class="btn btn-xs btn-default front_filter_option" >4-Star</button>
+									<button  type="button" class="btn btn-xs btn-default front_filter_option" >5-Star</button>
+									<button  type="button" class="btn btn-xs btn-default front_filter_option" >Suit Piece</button>
+									<!-- <button  type="button" class="btn btn-xs btn-default front_filter_option" >新品</button> -->
 									<button  type="button" class="btn btn-xs btn-success" id="add_all">Add all shown items to your wardrobe</button>
 							</fieldset>
 						</div>
@@ -197,7 +197,7 @@
 		</div><!-- top -->
 		<hr>
 		<div id = 'searchResult'>
-			<input type="text" id="searchResultInput" class="btn-sm" placeholder="输入名字搜索" /><button class="btn btn-default btn-sm" onclick="searchResult()">Search</button><button class="btn btn-default btn-sm" id="searchResultMode">→Wardrobe</button>
+			<input type="text" id="searchResultInput" class="btn-sm" placeholder="Search" /><button class="btn btn-default btn-sm" onclick="searchResult()">Search</button><button class="btn btn-default btn-sm" id="searchResultMode">Add to Wardrobe</button>
 			<div id='searchResultList' width="100%"></div>
 		<hr>
 		</div>
@@ -211,7 +211,7 @@
 		<div class = "showmore" id= "showmore" isshowmore="1">↓Show More Items↓</div>
 		<div id = "end"></div>
 		<hr>
-		导入批量衣服，请先选择要导入的类别，然后在文本框内输入编号，用空格、逗号或者换行隔开。不知道编号在哪儿的请点<a href="http://tieba.baidu.com/p/3808711082" target="_blank">这里</a>
+		Choose clothes category first then input the number ID of clothes below and separated them with space or comma(eg. 001,002,003 or 001 002 003), then click import.
 		<div id = "import">
 		  <select id="importCate" onChange="clearImport()" ></select><br/>
 		  <textarea id="importData" rows=5 style="width:60%" ></textarea>
