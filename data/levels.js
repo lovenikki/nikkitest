@@ -174,9 +174,9 @@ var extraRaw = {
 //'繁星5-神鸟为乌': [-1.33, -1.0, 1.33, -1.33, 0.67],
 //'繁星6-宿分九野': [0.67, -1.33, -1.33, 1.33, -1],
 //'繁星7-诸星归位': [-1.33, -1.0, -1.33, 1.33, -0.67],
-'Classical Concert-3.Ticket Tout': [1.5, 2.5, 1.5, 1, -1.0],
-'Classical Concert-4.Romantic Date': [0.6, 1.0, -1.35, 1.25, 0.6],
-'Classical Concert-5.Warmth comes before Grace': [1.5, -0.75, 0.75, 1.5, -2.0],
+// 'Classical Concert-3.Ticket Tout': [1.5, 2.5, 1.5, 1, -1.0],
+// 'Classical Concert-4.Romantic Date': [0.6, 1.0, -1.35, 1.25, 0.6],
+// 'Classical Concert-5.Warmth comes before Grace': [1.5, -0.75, 0.75, 1.5, -2.0],
 };
 
 // all data are presented in order "simple", "cute", "active", "pure", "cool"
@@ -600,8 +600,8 @@ function addBonusInfo(base, weight, tag) {
 //"2-恶魔的诊所": [addBonusInfo('S', 1, "Gothic")],
 //"3-桃桃的考验（一）": [addBonusInfo('B', 1, "Paramedics")],
 //"5-桃桃的考验（三）": [addBonusInfo('C', 1, "Future")],
-'Classical Concert-4.Romantic Date': [addBonusInfo('A', 1, "European")],
-'Classical Concert-5.Warmth comes before Grace': [addBonusInfo('C', 1, "Winter")],
+// 'Classical Concert-4.Romantic Date': [addBonusInfo('A', 1, "European")],
+// 'Classical Concert-5.Warmth comes before Grace': [addBonusInfo('C', 1, "Winter")],
   "1-1": [],
   "1-2": [],
   "1-3": [addBonusInfo('B', 0.25, "Chinese Classical")],
