@@ -547,7 +547,7 @@ function setFilters(level) {
 function drawTheme() {
 	var dropdown = $("#theme")[0];
 	var def = document.createElement('option');
-	def.text = 'Customize Stage';
+	def.text = 'Select Stage';
 	def.value = 'custom';
 	dropdown.add(def);
 	for (var theme in allThemes) {
@@ -559,7 +559,7 @@ function drawTheme() {
 	
 	var dropdown2 = $("#theme-fliter")[0];
 	var def2 = document.createElement('option');
-	def2.text = 'Select Stage';
+	def2.text = 'Select Chapter';
 	def2.value = 'custom';
 	dropdown2.add(def2);
 	for (var index in themeFilter) {
@@ -575,7 +575,7 @@ function reDrawTheme() {
 	var dropdown = $("#theme");
 	dropdown.empty();
 	var def = document.createElement('option');
-	def.text = 'Customize Stage';
+	def.text = 'Select Stage';
 	def.value = 'custom';
 	dropdown[0].add(def);
 	for (var theme in allThemes) {
