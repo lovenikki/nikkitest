@@ -2303,7 +2303,7 @@ var wardrobe = [
   ['Duke\'s Daughter·Bottom','Bottom','063','5','S','','S','','','A','','SS','B','','European','浪·Fantasy','公爵的千金','V1.3.2-US'],
   ['Dignified Fishtail','Bottom','064','5','S','','S','','A','','S','','','A','Evening Gown','浪·Fantasy','贵妇雍容','V1.3.2-US'],
   ['Lily Petals','Bottom','065','4','SS','','','B','','B','S','','S','','Goddess','设·Recipe','百合花精','V1.3.2-US'],
-  ['Printed Skirt·Pink','Bottom','066','3','','A','S','','','S','','S','','C','','Shop·Gold/浪·Mystery/浪·Fantasy','','V1.3.2-US'],
+  ['Printed Skirt·Pink Plaid','Bottom','066','3','','A','S','','','S','','S','','C','','Shop·Gold/浪·Mystery/浪·Fantasy','','V1.3.2-US'],
   ['Printed Skirt·Cyan','Bottom','067','3','','S','B','','','S','','A','S','','Floral','设·C066','','V1.3.2-US'],
   ['Printed Skirt·Momo','Bottom','068','3','','A','','A','','A','','S','C','','Floral','设·C066','','V1.3.2-US'],
   ['Printed Skirt·Duck','Bottom','069','3','','S','','S','','A','','A','B','','Floral,Pet','设·C066','','V1.3.2-US'],
