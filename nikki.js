@@ -941,8 +941,8 @@ function filterClotherHTML(btn){
 		var type = 0;
 		switch($(btn).text()){
 			case "Reset Filter": type = 0; break;
-			case "尚缺材料": cls = ".deps:first"; type = 3; break;
-			case "暂不缺材料": cls = ".depsFin:first"; type = 3; break;
+			case "Material(Unfinished)": cls = ".deps:first"; type = 3; break;
+			case "Material(Finished)": cls = ".depsFin:first"; type = 3; break;
 			case "Maiden": str = " M"; type = 1; break;
 			case "Maiden C/E": str = " M"; type = 2; break;
 			case "Princess": str = " P"; type = 1;break;

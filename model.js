@@ -107,7 +107,7 @@ Clothes = function(csv) {
 		if (splits.length > 1) for (i=0;i<splits.length;i++) if(splits[i]) depNumAlls += Number(splits[i]);
 		
 		if(indent == '   ' && ret != '')
-			ret = "[Material]" + this.name + (depNumAlls > 0 ?  ' - Need '+ depNumAlls + ' pcs in total' : '') + "\n" + ret;
+			ret = "[Material]" + this.name + (depNumAlls > 0 ?  ' - Need '+ depNumAlls + ' more pcs' : '') + "\n" + ret;
       return ret;
     },
     calc: function(filters) {
