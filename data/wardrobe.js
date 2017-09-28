@@ -880,7 +880,7 @@ var wardrobe = [
   ['Denim Lady','Dress','097','2','','S','S','','','C','','B','','S','Denim','2-5 Maiden','','V1.3.2-US'],
   ['Goddess Realm','Dress','098','3','','SS','','B','','C','S','','SS','','Goddess','Shop·Gold/浪·Mystery/浪·Fantasy','','V1.3.2-US'],
   ['Dusty Pink Dress','Dress','099','2','','A','','A','','B','A','','S','','Homewear,Pajamas','浪·Mystery','','V1.3.2-US'],
-  ['Searing ame','Dress','101','2','A','','A','','A','','A','','A','','Evening Gown','Shop·Diamond','','V1.3.2-US'],
+  ['Searing Flame','Dress','101','2','A','','A','','A','','A','','A','','Evening Gown','Shop·Diamond','','V1.3.2-US'],
   ['Dreamy Calico','Dress','102','3','','A','S','','B','','S','','A','','Bohemia,Floral','Achievement','','V1.3.2-US'],
   ['Iris Short Skirt','Dress','104','2','','A','A','','','A','','A','A','','','Shop·Gold','','V1.3.2-US'],
   ['Rose Pool','Dress','106','3','','S','S','','S','','C','','S','','','Shop·Diamond','','V1.3.2-US'],
