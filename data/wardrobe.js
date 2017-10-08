@@ -2313,7 +2313,7 @@ var wardrobe = [
   ['Ocean Breeze Culotte','Bottom','073','3','','S','','B','','A','','A','S','','Sports','设·C070','','V1.3.2-US'],
   ['Simplicity','Bottom','074','3','','S','A','','','S','','S','B','','Floral','设·Recipe','','V1.3.2-US'],
   ['Marble Twig','Bottom','075','3','','S','S','','','S','','S','C','','Floral','设·C074','','V1.3.2-US'],
-  ['Graffitti of History','Bottom','076','3','','SS','S','','','B','','SS','C','','Floral','设·C074','','V1.3.2-US'],
+  ['Graffiti of History','Bottom','076','3','','SS','S','','','B','','SS','C','','Floral','设·C074','','V1.3.2-US'],
   ['Winter Mume Flower','Bottom','077','3','','S','A','','','A','','S','C','','Floral','设·C074','','V1.3.2-US'],
   ['Decorative Shorts·Grey','Bottom','078','2','','A','A','','','B','','A','B','','','Shop·Gold/浪·Mystery/2-2 Maiden','','V1.3.2-US'],
   ['Decorative Shorts·Green','Bottom','079','2','','S','','C','','S','','A','A','','','设·C078','','V1.3.2-US'],
