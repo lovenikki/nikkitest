@@ -600,7 +600,7 @@ var wardrobe = [
   // ['甜香倩影','Hair','818','4','','B','','S','','SS','','A','A','','','Sign-in','甜蜜阳光','V1.9.0'],
   // ['长街包子铺','Hair','819','4','','A','','S','','S','','A','A','','','Shop·Gold','长街包子娘','V1.3.2-US'],
   ['Make Beautiful','Hair','820','5','S','','SS','','SS','','A','','S','','','Shop·Gold','War on Ruins','V1.3.2-US'],
-  ['Make Beautiful·Virus','Hair','821','5','A','','SS','','SS','','A','','A','','','设·C8820','War on Ruins·Customized','V1.3.2-US'],
+  ['Make Beautiful·Virus','Hair','821','5','A','','SS','','SS','','A','','A','','','设·C820','War on Ruins·Customized','V1.3.2-US'],
   // ['甜蜜巧心结','Hair','822','3','A','','','B','','S','','S','A','','','Shop·Diamond','','V2.2.0'],
   // ['莉莉安娜','Hair','823','3','','S','','S','','B','','A','A','','Fairy','13-3 P','少女浪漫谭·Pre-evolved','V1.9.0'],
   // ['莉莉安娜·Rare','Hair','824','4','A','','','S','','S','','A','A','','Fairy','设·E823','少女浪漫谭·Pre-evolved','V1.9.0'],
