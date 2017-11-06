@@ -5061,7 +5061,7 @@ var wardrobe = [
   // ['夏恋心情','Accessory-Handheld·Right','1653','3','A','','B','','','S','','S','A','','','Shop·Gold','','V2.7.1'],
   // ['星坠','Accessory-Earrings','1654','3','A','','S','','S','','B','','B','','','Shop·Gold','','V2.7.1'],
   ['Cruising Devil','Accessory-Foreground','1655','4','S','','','S','','S','A','','A','','','Shop·Diamond','','V2.7.1'],
-  // ['小魔女的南瓜灯','Accessory-Handheld·Left','1656','4','A','','','SS','','S','A','','A','','','Shop·Gold','','V2.7.1'],
+  ['Witch\'s Lantern','Accessory-Handheld·Left','1656','4','A','','','SS','','S','A','','A','','','Shop·Gold','','V2.7.1'],
   ['Prank Cutie','Accessory-Face','1657','4','A','','S','','','A','S','','A','','','Shop·Diamond','','V1.6.2(2)-US'],
   ['Little Devil\'s Horns','Accessory-Hair ornaments','1658','4','','A','','S','','S','A','','B','','Pet','设·Craft','Maple Sugar Magic','V1.6.2(2)-US'],
   ['Little Devil\'s Candy','Accessory-Earrings','1659','4','','A','','S','','S','A','','A','','','设·Craft','Maple Sugar Magic','V1.6.2(2)-US'],
