@@ -590,7 +590,7 @@ function addBonusInfo(base, weight, tag) {
 // "梦恋奇迹4-心与戒指": [addBonusInfo('A', 0.5, "Floral")],
 'Evernight·Black White Dance-Stage1': [addBonusInfo('C', 1, "Swordsman")],
 'Evernight·Black White Dance-Stage3': [addBonusInfo('C', 1, "Swordsman"), addBonusInfo('C', 1, "Fairy")],
-'Evernight·Black White Dance-Stage4': [addBonusInfo('C', 1, "Evening Gown")],
+'Evernight·Black White Dance-Stage5': [addBonusInfo('C', 1, "Evening Gown")],
 //"梦恋奇迹1-星法法的来信": [addBonusInfo('C', 1, "Fairy")],
 //"梦恋奇迹2-不详的占卜": [addBonusInfo('C', 0.6, "Navy"), addBonusInfo('C', 0.6, "Sports")],
 //"梦恋奇迹3-烟花的意外": [addBonusInfo('C', 0.1, "Denim")],
