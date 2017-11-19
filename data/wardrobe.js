@@ -4582,7 +4582,7 @@ var wardrobe = [
   // ['水墨游龙','Accessory-Background','1138','5','SS','','S','','A','','SS','','A','','Chinese Classical','设·C1125','天启之龙腾·Customized','V1.3.2-US'],
   // ['凛苍云冠','Accessory-Veil','1139','5','SS','','S','','S','','A','','S','','Chinese Classical','设·C1126','天启之龙腾·Customized','V1.3.2-US'],
   ['Swordswoman Cap·Purple','Accessory-Hair ornaments','1140','4','A','','SS','','S','','A','','A','','','设·C988','Heroine in Armor·Customized','V1.3.2-US'],
-  ['Ace\'s Necklace·Purple','Accessory-Necklace','1141','4','','SS','S','','A','','A','','A','','','设·C989','Heroine in Armor·Customized','V1.3.2-US'],
+  ['Ace Necklace·Purple','Accessory-Necklace','1141','4','','SS','S','','A','','A','','A','','','设·C989','Heroine in Armor·Customized','V1.3.2-US'],
   ['Sword of Ace·Purple','Accessory-Handheld·Left','1142','4','A','','A','','SS','','S','','A','','Swordsman','设·C990','Heroine in Armor·Customized','V1.3.2-US'],
   ['Love Guide·Necklace','Accessory-Necklace','1143','4','A','','','SS','','S','','A','A','','','设·C991','Rule of Love·Customized','V1.3.2-US'],
   ['Love Guide·Handbag','Accessory-Handheld·Right','1145','4','A','','','S','','S','','A','A','','','设·C993','Rule of Love·Customized','V1.3.2-US'],
