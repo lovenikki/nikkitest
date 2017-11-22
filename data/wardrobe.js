@@ -6541,6 +6541,15 @@ var wardrobe = [
   ['Invisible Figure','Makeup','109','5','A','','S','','SS','','SS','','S','','','Event','Shutendoji','V1.5.1-US'],
   ['Momo Stalking','Accessory-Foreground','3146','5','S','','','SS','','SS','A','','S','','','Recharge','','V1.5.1-US'],
   ['Halloween Bats','Accessory-Tattoo','3147','5','A','','','A','SS','','SS','','S','','','Recharge','','V1.5.1-US'],
+  ['Double Ponytails','Hair','1125','4','A','','','A','','S','','SS','','B','','Event','','V1.5.2(2)-US'],
+  ['Teenage Days','Shoes','1005','4','','SS','','B','','A','','S','A','','','Event','','V1.5.2(2)-US'],
+  ['March in Spring','Accessory-Hair ornaments','2197','4','S','','S','','A','','S','','','B','Kimono','Event','','V1.5.2(2)-US'],
+  ['Double Ponytails','Accessory-Hair ornaments','2115','4','S','','','S','','S','','A','A','','','Event','','V1.5.2(2)-US'],
+  ['Wish You Well','Accessory-Veil','2196','4','A','','S','','S','','A','','','S','Kimono','Event','','V1.5.2(2)-US'],
+  ['Double Ponytail Commemoration','Accessory-Bracelet·Right','2116','4','B','','','S','','A','','SS','A','','','Event','','V1.5.2(2)-US'],
+  ['Scenery of Spring','Accessory-Handheld·Left','2198','4','A','','SS','','S','','A','','','A','','Event','','V1.5.2(2)-US'],
+  ['Sweet Dream','Accessory-Foreground','2199','4','SS','','S','','A','','','A','','A','','Event','','V1.5.2(2)-US'],
+  ['Moon Night Lantern','Accessory-Special·Head ornaments','3080','5','A','','S','','SS','','','A','A','','Kimono','Event','','V1.5.2(2)-US'],
 ];
 
 // Clothes: name, type, id, stars, gorgeous, simple, elegant, active, mature, cute, sexy, pure, cool, warm, extra, source, set
