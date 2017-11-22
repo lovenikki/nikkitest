@@ -5196,7 +5196,7 @@ var wardrobe = [
   // ['时间航海','Makeup','068','4','B','','','S','','SS','','A','A','','Fairy','活动·消费送','战斗爱丽丝','V2.1.0'],
   // ['灵魄占卜','Makeup','069','4','A','','S','','SS','','A','','B','','','设·Craft','灵魄先知','V2.1.0'],
   // ['魂牵梦萦','Makeup','070','5','A','','SS','','SS','','A','','A','','','设·Craft','黑寂蔷薇','V2.1.0'],
-  ['Peach Kiss','Makeup','071','5','A','','','S','','SS','','A','','A','','Event','Sly Angel','V1.3.2-US'],
+  ['Peachy Kiss','Makeup','071','5','A','','','S','','SS','','A','','A','','Event','Sly Angel','V1.3.2-US'],
   ['Nightmare Foreword','Makeup','072','5','A','','S','','SS','','SS','','','A','','Shop·Diamond','White Demon','V1.3.2-US'],
   ['Deep Stars','Makeup','073','5','S','','SS','','SS','','A','','A','','','Shop·Gold','Star Priest','V1.5.0-US'],
   // ['幽冥紫鸢','Makeup','074','5','A','','A','','SS','','SS','','A','','','Star Secret','尾火虎','V2.2.1'],
