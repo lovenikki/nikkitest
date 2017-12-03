@@ -2463,7 +2463,7 @@ var wardrobe = [
   ['Tea-picking Tune·Skirt','Bottom','330','3','','S','S','','','A','','B','B','','Modern China','浪·Misty','','V1.3.2-US'],
   ['Cloud Pants·Blue','Bottom','331','5','','A','','SS','','A','','SS','A','','Modern China','浪·Misty','','V1.3.2-US'],
   ['Cloud Pants·Ink','Bottom','332','5','','S','','SS','SS','','A','','A','','Modern China','设·C331','','V1.3.2-US'],
-  ['Northern Solider Trousers','Bottom','333','4','','A','','S','A','','SS','','B','','Army','设·Craft','Northern Solider','V1.3.2-US'],
+  ['Northern Solider·Trousers','Bottom','333','4','','A','','S','A','','SS','','B','','Army','设·Craft','Northern Solider','V1.3.2-US'],
   ['Gentleman Stripe Pants','Bottom','334','4','','SS','A','','S','','','A','','A','Unisex','设·Craft','Stripe Gentleman','V1.3.2-US'],
   ['Tarot Bottoms·Epic','Bottom','335','5','SS','','','S','','A','S','','A','','Traditional','设·E342','Tarot Fourtuneteller','V1.3.2-US'],
   ['Phantom Bottoms·Rare','Bottom','336','5','','S','SS','','A','','','S','','A','Unisex','设·E344','Sapphires the Phantom Thief','V1.3.2-US'],
