@@ -6120,7 +6120,7 @@ var wardrobe = [
   // ['梦中的婚礼','Dress','985','5','SS','','SS','','A','','','A','A','','Wedding','Suit','梦中的婚礼·套装Achievement','V3.2.2'],
   // ['月亮河','Accessory-Background','2280','5','S','','S','','A','','','SS','A','','','Suit','梦中的婚礼·套装Achievement','V3.2.2'],
   // ['倾心迷梦','Makeup','122','5','A','','SS','','A','','','SS','A','','','Suit','梦中的婚礼·套装Achievement','V3.2.2'],
-  ['Vow of Butterfly','Hair','1175','5','A','','SS','','SS','','','A','S','','','Happiness','Oath of Flower Rain','V1.7.0(2)-US'],
+  ['Vow of Butterfly Dance','Hair','1175','5','A','','SS','','SS','','','A','S','','','Happiness','Oath of Flower Rain','V1.7.0(2)-US'],
   ['Gem Coronet','Dress','986','5','A','','S','','SS','','SS','','A','','Wedding','Happiness','Oath of Flower Rain','V1.7.0(2)-US'],
   ['Budding Age','Shoes','1047','5','S','','SS','','SS','','','A','A','','','Happiness','Oath of Flower Rain','V1.7.0(2)-US'],
   ['Chain of Bravery','Accessory-Foreground','2281','5','S','','SS','','A','','','S','S','','','Happiness','Oath of Flower Rain','V1.7.0(2)-US'],
