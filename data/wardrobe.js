@@ -3188,7 +3188,7 @@ var wardrobe = [
   ['Limpid Tears','Shoes','496','5','','S','A','','SS','','S','','A','','','VIP Gift','Diamond Mermaid','V1.3.7'],
   ['Embroidered Shoes','Shoes','497','6','SS','','SS','','A','','','S','S','','','设·Craft','Stunning Beauty','V1.3.2-US'],
   ['Embroidered Shoes·Blue','Shoes','498','6','A','','A','','','SS','SS','','S','','','设·C497','Stunning Beauty·Customized','V1.3.2-US'],
-  ['Blue & White Shoes','Shoes','499','4','','SS','S','','A','','B','','A','','','设·Craft','Ink Wash Painting','V1.3.2-US'],
+  ['Blue White Shoes','Shoes','499','4','','SS','S','','A','','B','','A','','','设·Craft','Ink Wash Painting','V1.3.2-US'],
   ['Gentleman of Bloch','Shoes','500','4','','S','A','','SS','','','A','','B','Unisex','设·Craft','Stripe Gentleman','V1.3.2-US'],
   ['Thief\'s Boots·Rare','Shoes','502','5','B','','SS','','SS','','A','','','A','Unisex,European','设·E532','Sapphires the Phantom Thief','V1.3.2-US'],
   ['Sheep Boots·Rare','Shoes','503','5','S','','SS','','','SS','','A','','A','Pet','设·E529','Mori Girl','V1.3.2-US'],
