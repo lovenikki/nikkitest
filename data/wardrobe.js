@@ -8452,7 +8452,7 @@ var wardrobe = [
   ['Sweet Demon','Makeup','178','5','B','','B','','S','','S','','B','','Gothic','Recharge','Witch Hecate','V1.7.1(150)-US'],
   ['Crooked Hat','Accessory-Hair ornaments','3294','5','B','','S','','S','','B','','A','','Gothic','Recharge','Witch Hecate','V1.7.1(150)-US'],
   ['Blood Drop Chain','Accessory-Necklace','3295','5','A','','SS','','A','','SS','','A','','Recharge','','Witch Hecate','V1.7.1(150)-US'],
-  ['Diamond Staff','Accessory-Handheld·Right','3296','5','A','','A','','S','','A','','B','','Gothic','Recharge','Witch Hecate','V1.7.1(150)-US'],
+  ['Diamond Staff','Accessory-Handheld·Right','3296','5','A','','A','','S','','A','','B','','','Recharge','Witch Hecate','V1.7.1(150)-US'],
   ['Witch Glove','Accessory-Bracelet·Glove','3297','5','S','','S','','B','','B','','B','','','Recharge','Witch Hecate','V1.7.1(150)-US'],
   ['Midnight Fright','Accessory-Foreground','3302','5','B','','S','','S','','B','','A','','Gothic','Recharge','Witch Hecate','V1.7.1(150)-US'],
   ['Rose Perfume','Accessory-Ground','3303','5','S','','S','','S','','A','','B','','Gothic','Recharge','Witch Hecate','V1.7.1(150)-US'],
