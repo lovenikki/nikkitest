@@ -181,7 +181,7 @@ var extraRaw = {
 //'5-桃桃的考验（三）': [3, -2.1, 2.1, -2.1, 2.1],
 'Star Secrets1-Vermilion Bird': [1.33, 1.0, 0.67, 1.33, -1.33],
 'Star Secrets2-Abdomen of Azure Dragon': [1.33, 1.33, 1.33, 1.0, 0.67],
-'Star Secrets3-月鹿仰颈': [-1.0, -1.33, -1.33, -1.33, 0.67],
+'Star Secrets3-Moon Reindeer': [-1.0, -1.33, -1.33, -1.33, 0.67],
 'Star Secrets4-姻缘之宿': [1.33, 0.67, -1.33, 1.33, 1.0],
 'Star Secrets5-神鸟为乌': [-1.33, -1.0, 1.33, -1.33, 0.67],
 'Star Secrets6-宿分九野': [0.67, -1.33, -1.33, 1.33, -1],
